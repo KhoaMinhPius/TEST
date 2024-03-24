@@ -22,8 +22,8 @@ int maxProfit(int* prices, int pricesSize) {
     return maxProfit;
 }
 
-
 int main() {
+
     int prices1[] = {1, 9, 0, 6, 3, 6, 4};
     int n1 = sizeof(prices1) / sizeof(prices1[0]);
     printf("Example 1: %d\n", maxProfit(prices1, n1));
